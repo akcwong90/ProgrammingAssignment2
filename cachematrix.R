@@ -2,7 +2,8 @@
 ## functions do
 
 ## Given a numeric vector, constructs a square matrix.  
-## Assumes a dimensions are a squarable value.  Also provides to get and set the inverse
+## Assumes a dimensions are a squarable value.  Also provides methods 
+## to get and set the inverse.
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
